@@ -14,7 +14,10 @@
           </div>
           <div class="col-xs-6 col-lg-3 col-md-3 col-sm-4">
           
-          <img src="/assets/images/reviewapp.gif" class="img-responsive imgright" style="cursor: pointer;" name="reviews_tile" id="reviews_tile_s"  onclick="javascript:window.open('//www.demandforced3.com/b/etile_reviews_popup.jsp?d3cp_exid=ugnasons&d3cp_source=My%20Website','newwindow', 'width=790px, top=0, left=0, toolbar=no, menubar=no, scrollbars=1, resizable=1, location=no, status=0');" />
+          <a href="reviews.html">Reviews</a>
+          <img src="/assets/images/reviewapp.gif" 
+          class="img-responsive imgright" style="cursor: pointer;" name="reviews_tile" 
+          id="reviews_tile_s"  onclick="javascript:window.open('//www.demandforced3.com/b/etile_reviews_popup.jsp?d3cp_exid=ugnasons&d3cp_source=My%20Website','newwindow', 'width=790px, top=0, left=0, toolbar=no, menubar=no, scrollbars=1, resizable=1, location=no, status=0');" />
           
           </div>
         </div>

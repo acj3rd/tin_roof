@@ -1,0 +1,363 @@
+<!DOCTYPE link PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//cdn.mxpnl.com">
+<link rel="dns-prefetch" href="//www.inspectlet.com">
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-28301432-3', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+  <script>var __insp=__insp||[];__insp.push(['wid',1344245760]);(function(){function __ldinsp(){var insp=document.createElement('script');insp.type='text/javascript';insp.async=true;insp.id="inspsync";insp.src=('https:'==document.location.protocol?'https':'http')+'://www.inspectlet.com/inspectlet-jq.js';var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(insp,x);}if (window.attachEvent){window.attachEvent('onload', __ldinsp);}else{window.addEventListener('load', __ldinsp, false);}})();</script>
+  <script>
+    function mix(source, target) {
+       for(var key in source) {
+         if (source.hasOwnProperty(key)) {
+            target[key] = source[key];
+         }
+       }
+
+    }
+    window.mixpanel = {
+      _events: [],
+      config: {},
+      defaultTrackingProperties: undefined,
+      track: function(name, properties, callback) {
+        if(window.mixpanel.defaultTrackingProperties){mix(window.mixpanel.defaultTrackingProperties, properties)};
+        console.log("Mixpanel Track Event:"+name+" || Payload: "+JSON.stringify(properties));
+        window.mixpanel._events.push([name, properties || {}]);
+        if(callback) {
+          callback();
+        }
+      },
+      track_links: function(selector, name, fn) {
+        var links = document.querySelectorAll(selector);
+        for (var i = 0 ; i < links.length ; ++i) {
+          links[i].addEventListener("click", function(event) {
+            var properties;
+            if (fn)
+              properties = fn.call(event.target);
+            console.log("Mixpanel Track Event: "+name+" || Payload: "+JSON.stringify(properties));
+            window.mixpanel._events.push([name, properties || {}]);
+          });
+        }
+      },
+      track_forms: function(selector, name, properties) {
+        //the real track_forms also supports properties as a function, we dont need it for testing
+        var form = document.querySelector(selector);
+        window.mixpanel._events.push([name, properties || {}]);
+        form.submit();
+      },
+      get_distinct_id: function() {
+        return "consumer-test";
+      },
+      register: function(properties) {
+          window.mixpanel.defaultTrackingProperties = properties;
+      }
+    };
+  </script>
+<link rel="stylesheet" href="/css/reviews.css">
+<link rel="stylesheet" href="/css/fontawesome.min.css">
+<script>
+  _slug = "ugnasons"
+  mixpanel.track("View",{
+    pageType:"reviews",
+    source:"widget",
+    businessId: "116003196",
+    vertical: "49.Heating and Air",
+    d3cp_link_addreview:'',
+    d3cp_link_scheduler:''
+
+  })
+</script>
+<div class="outerBox">
+            <div class="Title">
+            <div class="headers">
+                <h1> Reviews </h1>
+                <h3>UG Nasons, Inc.</h3>
+            </div>
+        </div>
+    
+    <div class="Container">
+        <div id="reviews-widget" class="addBorder" >   <div class="facebook-reviews widgets-reviews-header">
+                            <div class="business-rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span class="rating-text" style="font-weight:bold;">Average Star Rating 
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+</span>
+                                        <span itemprop="ratingCount" content="110">
+                                                    <span style="font-weight: normal;font-size:16px;"><span class="" style="color:#60a633">100.0%</span> of
+                            110 reviewers would refer us</span>
+                                            </span>
+                </div>
+            
+            <div class="request-appointment-container">
+                <a href="/b/ugnasons/schedule?widget=1" class="schedule-form-submit">Request an appointment</a>
+            </div>
+
+        </div>
+
+        <div id="pagination_reviews_widgets">
+            <section class="business-profile-bottom" style="float:none;">
+  <div class="business-profile-about-or-reviews">
+    <section id="business-profile-reviews">
+      <div class="business-profile-reviews">
+                  <div id="review-3408924" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Norman P</cite>
+              <span class="business-profile-review-certified">Customer since 2016</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>Awesome installation of new air conditioning unit and heater! And the price was shockingly fantastic! Thank you Luke and the whole team!</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408924"
+         itemprop="datePublished" content="2020-04-28">
+                    11 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408914" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Norman R</cite>
+              <span class="business-profile-review-certified">Customer since 2010</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>UG Nasons has been an outstanding company to deal with over the 10+yrs from the time that we decided to install ductless systems to meet the needs of our 2 story house to our periodic check ups by their technicians.  They are very attentive, courteous and knowledgeable.  We recommend them without equivocation.</p><p>H&#38;N R</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408914"
+         itemprop="datePublished" content="2020-04-28">
+                    11 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408854" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Ned S</cite>
+              <span class="business-profile-review-certified">Customer since 2015</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>We had ug nason install a new furnace and air conditioning unit.</p><p>Also had them install water heater,</p><p>Excellent service and we call them once a year to come and check the furnace  and air conditioning</p><p>just for yearly maintenance.</p><p>Highly recommend  using them for heating and air conditioning service.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408854"
+         itemprop="datePublished" content="2020-04-28">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408849" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">George R</cite>
+              <span class="business-profile-review-certified">Customer since 2014</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>I have dealt with the people at UG Nasons for over 15 years as an Executive Board member at Whitehall Farms Condominiums. I can vouch for their honesty and dedication to the values of great workmanship in the HVAC area. They are a local company and have the best interests in mind when they deal with customers. The office staff is excellent in their commitment to providing fair and timely results to their clients. I would have and had have no qualms in recommending them to anyone interested in receiving value for their dollars.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408849"
+         itemprop="datePublished" content="2020-04-27">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408848" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">A-1 Roofing C</cite>
+              <span class="business-profile-review-certified">Customer since 1999</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>UG Nasons and Luke have always been helpful to me on many projects. Their experience and professional service has always exceeded my expectations.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408848"
+         itemprop="datePublished" content="2020-04-27">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408843" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Antoinette S</cite>
+              <span class="business-profile-review-certified">Customer since 2016</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>Nasons is terrific!  They've installed our ductless air conditioning system and took care of converting our heating system from oil to gas.  Sue in the office deserves a special shout-out (she just gets things done), and her boss, Luke ... Luke knows everything about everything.  If you have a question, any question, just ask him; he knows the answer.  Many of the crew have been there a long time, which helps when systems are as complex as heating and cooling.  We are happy campers.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408843"
+         itemprop="datePublished" content="2020-04-27">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408840" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Karen W</cite>
+              <span class="business-profile-review-certified">Customer since 2017</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>Personable, professional service at a reasonable price. Thank you UG Nasons!</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408840"
+         itemprop="datePublished" content="2020-04-27">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3408838" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Echevarria Megan M</cite>
+              <span class="business-profile-review-certified">Customer since 2006</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>Talented and incredibly professional people who consistently go above and beyond to take care of their clients.  Caring, compassionate and highly effective.  Would never call anyone else.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3408838"
+         itemprop="datePublished" content="2020-04-27">
+                    12 days ago              </a>
+    </div>
+
+      </div>
+  <div id="review-3400325" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Sarah M</cite>
+              <span class="business-profile-review-certified">Customer since 2020</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>I am astounded at how fast you responded to replacing my heating system...the day I called you arrived very quickly &#38; got it done!  Thank you so very, very much! And at a good price! Sara Murphy.</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3400325"
+         itemprop="datePublished" content="2020-02-11">
+                    3 months ago              </a>
+    </div>
+
+          <p class="business-author"><img src="/b/images/response-icon.png" alt="" width="10px"> UG Nasons, Inc. replied:</p>
+      <div class="business-profile-review-response">
+
+        <p>Thank-you Sarah for your unsolicited and unscripted message of encouragement.We are happy to help you and thousands of Southern Rhode Islanders  all year long!</p>      </div>
+      </div>
+  <div id="review-3395033" class="business-profile-review "
+       itemprop="review" itemscope itemtype="http://schema.org/Review">
+    <p>
+      <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+         
+<span class="stars-5" >
+  <i></i><span content="5" itemprop="ratingValue">5</span> stars
+</span>
+      </span>
+      <cite itemprop="author">Anonymous</cite>
+              <span class="business-profile-review-certified">Verified customer</span>
+          </p>
+
+    <blockquote class="review-body" itemprop="reviewBody">
+      <p>Brian was very professional and identified my heat-related issue very quickly. Very satisfied</p>    </blockquote>
+
+    <div class="timestamp">
+      <a href="#review-3395033"
+         itemprop="datePublished" content="2020-01-04">
+                    4 months ago              </a>
+    </div>
+
+      </div>
+      </div>
+      </br>
+    </section>
+  </div>
+</section>
+        </div>
+
+        <div class="pages" style="text-align:center">
+            <a href="" class="hide-display"  id="previousPage" style=" font-size: 18px;padding-right: 10px;"><i class="icon-circle-arrow-left" aria-hidden="true"></i> <span class="link">Previous</span> </a>
+            <a href="/b/ugnasons/reviews.page?header=true&#38;page=1" class="" id="nextPage"  style=" font-size: 18px;padding-right: 10px;"><span class="link">Next</span> <i class="icon-circle-arrow-right" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!-- the scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+<script defer src="/b/javascripts/main.js"></script>
+<!-- full slate script -->
+</html>
