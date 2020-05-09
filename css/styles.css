@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(/images/mbp-bg.gif);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+
+
+}
+
+#maincontainer {
+	width: 100%;
+	max-width: 1400px;
+	background-color: #ffffff;
+
+}
+
+#topheader {
+	width: 100%;
+	max-width: 1400px;
+
+}
+
+#navcontainer {
+	width: 100%;
+	
+
+}
+
+#maincontent {
+	background-color: #F8F8F8;
+	padding-right: 0px;
+	border-radius: 8px;
+	margin-left: 16px;
+	margin-right: 16px;
+	border: thin solid #C8CCCF;
+	
+}
+
+#maincontent2 {
+	background-color: #F8F8F8;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-radius: 8px;
+	margin-left: 16px;
+	margin-right: 16px;
+	border: thin solid #C8CCCF;
+	
+}
+
+#toppic {
+	width: 100%;
+	margin-bottom: 26px;
+	
+}
+
+
+
+#footer {
+	border-radius: 8px;
+	background-color: #4A575F;
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+#footer a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+
+}
+.pad {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.hphone {
+	color: #FFFFFF;
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #4A575F;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+.pad {
+	margin-top: 8px;
+	margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-right: 14px;
+	
+}
+}
+
+#topright {
+	margin-top: 20px;
+	width: 100%;
+	
+}
+
+.imgright {
+	float:right;
+}
+
+@media screen and (max-width: 768px) {
+.imgright {
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	
+}
+}
+
+.tcent {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+.tcent {
+	margin-bottom: 20px;
+	
+}
+}
+
+
+
+/* navbar */
+.navbar-default {
+	background-color: #4A575F;
+	border-color: #4A575F;
+	border-radius: 8px 8px 8px 8px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	bottom: 4px;
+	
+}
+/* title */
+.navbar-default .navbar-brand {
+	color: #F8F8F8;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+	text-decoration: underline;
+	background-color: #4A575F;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #F8F8F8;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+	text-decoration: underline;
+	
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+   
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #333333;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #B28500;
+    border-bottom-color: #B28500;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: .85;
+}
+
+#pgtitle {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+	font-size: 1.75em;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	color: #4a575f;
+
+}
+
+@media screen and (max-width: 768px) {
+#pgtitle {
+	font-size: 1.25em;
+	margin-left: 0px;
+	
+}
+}
+
+hr {
+margin-left: auto;
+margin-right: auto;
+height: 1px;
+background-color:#C8CCCF;
+color:#C8CCCF;
+border: 0 none;
+}
