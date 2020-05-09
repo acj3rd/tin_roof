@@ -45,10 +45,7 @@
         <p>Many residential HVAC service companies offer overly confusing contracts with too many options and hidden costs. Rather than offer good, better and best options we offer only our version of the better contract. Our vast experience has proven that a low level of service is not sufficient for safe, efficient operation. Given the cost of fuel it is important to make sure your system is operating efficiently. Keep in mind that it is easy to loose 20 to 20% of your systems operating efficiency without even knowing it. </p>
         <p>Conversely, best service is simply more expensive than is necessary on an ongoing basis. And if you happen to have an older home with and older boiler and the house has since been heavily insulated then your may have more heating horsepower than you really need. </p>
         <hr>
-        <p><strong>C) Indoor Air Quality and Duct Cleaning</strong></p>
-        <p>With most recently constructed homes being so tight and well insulated the quality of indoor air quality has become more critical than ever. So in addition to maintenance of your HVAC systems, your air quality should be checked and ducts should be inspected and cleaned periodically to minimize health problems related to allergens or mold. We have specialists who are skilled in these duct-cleaning techniques such as air to air or UV lights.</p>
-    
-       
+ 
       </div>
     </div>
 </div>
