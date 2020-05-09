@@ -40,12 +40,12 @@
 		<div class="col-lg-3 col-md-4 col-sm-4">
 			<br>
 			<p>
-			<a href="https://bettterbusiness.org">
+			<a href="https://www.bbb.org/us/ri/middletown/profile/heating-and-air-conditioning/ug-nasons-h-v-a-c-0021-201802">
 				<img src="images/BBB-logo.png" width="165"/>
 			</a>
 			</p>
 			<p>
-			<a href="https://angieslist.com"><img src="images/angieslist.jpg" width="180"/></a>
+			<a href="https://www.angieslist.com/companylist/us/ri/middletown/ug-nasons-reviews-2203754.htm"><img src="images/angieslist.jpg" width="180"/></a>
 			</p>
 		</div>
 	</div>
